@@ -12,6 +12,8 @@ export const profile = {
   email: 'anagha.sakaray@gmail.com',
   linkedin: 'https://www.linkedin.com/in/anagha-s-k-88aa0a259/',
   github: 'https://github.com/Anagha-S-K',
+  /** the source code of this site */
+  repo: 'https://github.com/Anagha-S-K/myportfolio',
   /** the PDF lives in /public; set to null to show "soon" instead */
   resumeUrl: '/Anagha-S-K-Resume.pdf' as string | null,
   /** square photo in /public, face centred (used on the ID badge) */
