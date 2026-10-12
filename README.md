@@ -4,15 +4,6 @@ Personal portfolio of Anagha S K, AI Engineer at Techcrafter, Bengaluru. I build
 
 Built with Vite, React, TypeScript and three.js.
 
-## Highlights
-
-- **Interactive ID badge.** The hero is a 3D ID card on a lanyard. Drag it, and click it to flip it over.
-- **Project case studies.** Each project has its own page: AEGIS, HireMateAI and NotifyNPick.
-- **"Ship it!" game.** A small platformer where you collect coins and stomp bugs on the way to a deploy flag.
-- **Light and dark themes.** Dark is the default, with a one-tap toggle that remembers your choice.
-- **Responsive.** Works on desktop and phones, and respects reduced-motion settings.
-- **Resume and contact.** A downloadable resume and direct links to email, LinkedIn and GitHub.
-
 ## Run it
 
 ```bash
@@ -26,18 +17,6 @@ The dev server is also reachable from other devices on the same network, so you 
 
 No environment variables or API keys are needed.
 
-## Where things live
-
-| Path | What's there |
-| --- | --- |
-| `src/content/site.ts` | All site copy: profile, hero text, links, resume path, nav |
-| `src/content/projects/` | One file per project case study |
-| `src/pages/` | Routes: the home page and project pages |
-| `src/components/` | Page sections, the 3D `Lanyard`, and the `ShipIt` game |
-| `src/lib/` | Helpers, including `badge.ts` (draws the ID badge) and `useTheme.ts` |
-| `src/styles/global.css` | Global styles and the light and dark themes |
-| `public/` | Resume PDF, favicons, share image and photos |
-| `logo/` | Logo files |
 
 To change what the site says, edit `src/content/site.ts`. To swap the resume, replace `public/Anagha-S-K-Resume.pdf` and keep the same filename.
 
