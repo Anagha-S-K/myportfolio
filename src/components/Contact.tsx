@@ -95,9 +95,7 @@ export function Footer() {
         <button className="to-top" type="button" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
           <Icon name="up" />Back to the start
         </button>
-        <span>
-          © 2026 {profile.name} · <a href={profile.repo} target="_blank" rel="noreferrer noopener">View source on GitHub</a>
-        </span>
+        <span>© 2026 {profile.name}</span>
       </div>
     </footer>
   );
