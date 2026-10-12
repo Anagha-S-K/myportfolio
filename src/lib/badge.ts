@@ -19,6 +19,7 @@ const TEXT = '"Hanken Grotesk Variable", system-ui, sans-serif';
 const loadImage = (src: string) =>
   new Promise<HTMLImageElement | null>(resolve => {
     const img = new Image();
+    img.crossOrigin = 'anonymous'; // lets a photo hosted on another domain be drawn on the canvas
     img.onload = () => resolve(img);
     img.onerror = () => resolve(null);
     img.src = src;
